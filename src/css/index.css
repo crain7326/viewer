@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.App {
+  width: 100%;
+}
+
+.home nav {
+  height: 50px;
+  background-color: rgba(221, 221, 221, 0.24);
+}
+.home .tarea_wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.home .tarea_wrap textarea {
+  all: unset;
+  width: 328px;
+  height: 600px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  margin-top: 25px;
+  padding: 10px;
+}
+.home .tarea_wrap textarea:focus {
+  border: 1px solid rgb(192, 192, 192);
+}
+.home .btn_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px 0;
+}
+.home .btn_wrap a {
+  width: 328px;
+  height: 45px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 45px;
+}
+.home .btn_wrap .Ridi {
+  border: 1px solid #1f8ee6;
+  transition: 0.2s;
+  margin-bottom: 10px;
+}
+.home .btn_wrap .Ridi:hover {
+  background-color: #1f8ee6;
+  color: #fff;
+}
+.home .btn_wrap .KakaoP {
+  border: 1px solid #fee500;
+  transition: 0.2s;
+}
+.home .btn_wrap .KakaoP:hover {
+  background-color: #fee500;
+}
