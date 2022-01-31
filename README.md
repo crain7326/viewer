@@ -5,6 +5,7 @@
 2. npm i react-router-dom
 
 ### 폴더 구조
+```
 viewer
 ㄴnode_modules (github push X)
 ㄴpublic
@@ -24,4 +25,4 @@ viewer
   ㄴApp.js
   ㄴindex.js
   ㄴroutes.js
-  
+```
