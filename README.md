@@ -4,6 +4,10 @@
 1. npx craete-react-app viewer
 2. npm i react-router-dom
 
+### 기본 규칙
+1. 개발은 develop branch에서만 진행
+2. 각자 개발할 페이지관련 css, js파일 외에 변경 X
+
 ### 폴더 구조
 ```
 viewer
