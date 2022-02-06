@@ -2,7 +2,7 @@ import React from 'react';
 
 const Ridi = () => {
   return (
-    <div>
+    <div className='ridi_books'>
       Ridi books
     </div>
   )
