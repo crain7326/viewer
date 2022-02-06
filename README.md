@@ -3,7 +3,6 @@
 ### 초기 세팅
 1. npx craete-react-app viewer
 2. npm i react-router-dom
-3. npm i tailwindcss
 
 ### 기본 규칙
 1. 개발은 develop branch에서만 진행
