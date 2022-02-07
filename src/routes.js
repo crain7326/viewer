@@ -7,18 +7,18 @@ export default [
   {
     path: '/',
     name: 'Home',
-    component: <Home />,
+    component: Home,
   },
   {
     path: '/ridi',
     name: 'Ridi',
     desc: '리디북스로 보기',
-    component: <Ridi />,
+    component: Ridi,
   },
   {
     path: '/kakaop',
     name: 'KakaoP',
     desc: '카카오 페이지로 보기',
-    component: <KakaoP />,
+    component: KakaoP,
   }
 ]
