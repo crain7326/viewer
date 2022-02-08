@@ -2,10 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import routes from '../routes';
 
+// components
+import Navbar from '../components/Navbar';
+
 const Home = ({text, handleChange}) => {
   return (
     <div className='home'>
-      <nav><h1>Logo</h1></nav>
+      <Navbar />
       <div className='tarea_wrap'>
         <textarea value={text} onChange={handleChange} autoFocus />
       </div>

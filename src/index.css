@@ -19,11 +19,16 @@ a {
   text-decoration: none;
 }
 
+textarea {
+  all: unset;
+  word-break: break-all;
+}
+
 .App {
   width: 100%;
 }
 
-.home nav {
+nav {
   height: 50px;
   background-color: rgba(221, 221, 221, 0.24);
 }
@@ -33,7 +38,6 @@ a {
   justify-content: center;
 }
 .home .tarea_wrap textarea {
-  all: unset;
   width: 328px;
   height: 600px;
   box-sizing: border-box;
@@ -72,4 +76,30 @@ a {
 }
 .home .btn_wrap .KakaoP:hover {
   background-color: #fee500;
+}
+
+/* 임시 */
+.kakao_page_text_wrap {
+  vertical-align: top;
+  border: 1px solid #ddd;
+  width: 328px;
+  height: 600px;
+  margin: 25px auto;
+  overflow-y: scroll;
+}
+.kakao_page_text {
+  margin: 10px 23px 10px 26px;
+}
+
+.kakao_page_text_wrap::-webkit-scrollbar {
+  width: 3px;
+}
+
+.kakao_page_text_wrap::-webkit-scrollbar-thumb {
+  background-color: rgb(201, 201, 201);
+  border-radius: 10px;
+}
+
+.kakao_page_text_wrap::-webkit-scrollbar-track {
+  background-color: transparent;
 }

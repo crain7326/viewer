@@ -2,9 +2,8 @@ import React from 'react';
 
 const Kbar = ({text}) => {
   return (
-    <div className=''>
-      text: {text}
-      Kbar Component
+    <div className='kakao_page_bar'>
+      
     </div>
   )
 };
