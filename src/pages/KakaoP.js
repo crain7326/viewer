@@ -4,19 +4,18 @@ import { Link } from 'react-router-dom';
 // components
 import Navbar from '../components/Navbar';
 
-const KakaoP = ({text}) => {
-  const textArray = text.replace(/(?:\r\n|\r|\n)/g, '<br>').split('<br><br>');
-  
+const KakaoP = ({textBundle, isShow, handleIsShow}) => {
   return (
     <div className='kakao_page'>
       <Navbar />
-      <div className='kakao_page_text_wrap'>
+      <div className='kakao_page_text_wrap' onClick={handleIsShow}>
         <div className='bg-slate-300 w-full h-11 py-2.5'>기본 탭</div>
+        {isShow && <div className='bg-slate-500 w-full h-11 py-2.5'>Show!</div>}
         <div className='kakao_page_text'>
-          {textArray.map((text, idx) => (
+          {textBundle.map((text, idx) => (
             <div key={idx}>
               <p>{text}</p>
-              {textArray.length !== idx + 1 && <br />}
+              {textBundle.length !== idx+1 && <br />}
             </div>
           ))}
         </div>
